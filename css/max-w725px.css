@@ -1,0 +1,85 @@
+section.header {
+  height: 400px;
+  background-size: auto 110px;
+}
+
+section.content {
+  width: 400px;
+  font-size: 20px;
+}
+
+section.content h2.warning {
+  font-size: 20px;
+}
+
+section.footer{
+  width: 400px;
+}
+
+section.header img.title {
+  height: auto;
+  width: 400px;
+  padding-top: 80px;
+}
+
+section.header img.sonhar {
+  height: 70px;
+  width: auto;
+  top: 0px;
+  margin: auto;
+  left: 0px;
+}
+
+section.header div.montain {
+   height: 180px;
+   background-size: auto 200px;
+   bottom: 110px;
+}
+
+section.header div.train {
+   height: 300px;
+   background-size: auto 200px;
+   bottom: 2px;
+}
+
+section.header div.rail {
+   height: 5px;
+   bottom: 5px;
+   background-size: auto 5px;
+}
+
+section.details {
+  width: 400px;
+  margin: auto;
+  text-align: center;
+  padding: 10px;
+  font-size: 24.5px;
+  margin-bottom: 30px;
+  color: black;
+  position: relative;
+  top: 0px;
+
+
+  border: 10px solid transparent;
+  -webkit-border-image: url(imgs/border.png) 9 round; /* Safari 3.1-5 */
+  -o-border-image: url(imgs/border.png) 9 round; /* Opera 11-12.1 */
+  border-image: url(imgs/border.png) 9 round;
+  background-color: white;
+}
+
+section.details hr {
+  height: 0px;
+}
+
+section.details h1 {
+  font-weight: 700;
+  font-size: 27px;
+}
+
+section.details a {
+  font-size: 27px;
+}
+
+section.details h2 {
+  font-size: 22px;
+}

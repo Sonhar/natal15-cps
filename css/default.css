@@ -1,0 +1,203 @@
+
+body {
+  background-color: #956c4d;
+  margin: 0 0 0 0;
+  text-align: right;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 400;
+  background-image: url("imgs/bg_pattern.png");
+  background-repeat: repeat;
+}
+
+b {
+  font-weight: 600;
+}
+
+footer {
+  padding: 0px 10px 0px 10px;
+}
+
+section.header {
+  width: 100%;
+  height: 600px;
+  background-color: #90bfe0;
+  background-image: url("imgs/header_bg.png");
+  background-position: center bottom; /*Positioning*/
+  background-repeat: repeat-x; /*Prevent showing multiple background images*/
+  background-size: auto 180px;
+  overflow: hidden;
+  position: relative;
+}
+
+section.content {
+  width: 1000px;
+  margin: auto;
+  text-align: center;
+  padding: 10px;
+  font-size: 24.5px;
+  margin-bottom: 30px;
+  color: black;
+
+
+  border: 10px solid transparent;
+  -webkit-border-image: url(imgs/border.png) 9 round; /* Safari 3.1-5 */
+  -o-border-image: url(imgs/border.png) 9 round; /* Opera 11-12.1 */
+  border-image: url(imgs/border.png) 9 round;
+  background-color: white;
+}
+
+section.content p {
+  text-align: justify;
+}
+
+section.content a {
+  color: black;
+  text-decoration: initial;
+  font-weight: bold;
+}
+
+section.content h2.warning {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 24.5px;
+}
+
+section.footer{
+  width: 1000px;
+  margin: auto;
+  text-align: center;
+  padding: 10px;
+  font-size: 14px;
+  margin-bottom: 30px;
+}
+
+section.footer p {
+  text-align: justify;
+}
+
+section.footer .legal {
+  color: black;
+}
+
+section.header img.title {
+  margin: auto;
+  position: absolute;
+  top:0; left: 0; right: 0;
+  width: auto;
+  height: 100px;
+  z-index: 20;
+  padding-top: 10px;
+}
+
+section.header div.montain {
+   height: 400px;
+   background-image: url("imgs/montain.png");
+   background-position: center bottom;
+   background-repeat: repeat-x;
+   background-size: auto 345px;
+   bottom: 177px;
+   position: absolute;
+   right: 0;
+   left: 0;
+}
+
+section.header div.train {
+   height: 400px;
+   background-image: url("imgs/train.png");
+   background-position: center bottom;
+   background-repeat: no-repeat;
+   background-size: auto 320px;
+   bottom: 6px;
+   position: absolute;
+   right: 0;
+   left: 0;
+}
+
+section.header div.rail {
+   height: 10px;
+   background-image: url("imgs/rail.png");
+   background-position: center bottom;
+   background-repeat: repeat-x;
+   bottom: 10px;
+   position: absolute;
+   right: 0;
+   left: 0;
+}
+
+section.header img.sonhar {
+  margin: auto;
+  position: absolute;
+  right: 0;
+  width: auto;
+  height: 100px;
+  z-index: 25;
+  padding: 10px;
+}
+
+section.header img.dragon {
+  margin-top: auto;
+  margin-bottom: auto;
+  padding-bottom: 40px;
+  position: absolute;
+  left: 0; bottom: 0; right: 0; top: 0;
+  width: auto;
+  height: 140px;
+  z-index: 9;
+  /*margin-left: auto;
+  margin-right: auto;
+  padding-left: 390px;*/
+}
+
+section.details {
+   text-align: center;
+   margin-left: 10px;
+   z-index: 40;
+   overflow: hidden;
+   position: absolute;
+   color: black;
+   width: 290px;
+   top: 10px;
+}
+
+section.details hr {
+  display:block;
+  background-color: #006600;
+  border:0px;
+  height:3px;
+}
+
+section.details h1 {
+  margin: 10px 0 10px 0;
+  font-weight: 700;
+  font-size: 35px;
+}
+
+section.details a {
+  margin: 10px 0 10px 0;
+  color: black;
+  text-decoration: initial;
+  font-weight: 700;
+  font-size: 35px;
+}
+
+section.details .upper {
+  text-transform: uppercase;
+}
+
+section.details h2 {
+  margin: 0;
+  font-weight: 400;
+  font-size: 30px;
+}
+
+section.content a.calltoaction {
+  background-color: black;
+  border-style: solid;
+  border-color: #FFFFFF;
+  border-width: 3px;
+  display: inline-block;
+  padding: 20px;
+  margin: auto;
+  color: white;
+  text-transform: uppercase;
+}

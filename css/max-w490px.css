@@ -1,0 +1,56 @@
+section.header {
+  height: 480px;
+  background-size: auto 80px;
+}
+
+section.content {
+  width: 310px;
+  font-size: 20px;
+  padding: 10px 2px 10px 2px;
+}
+
+section.content h2.warning {
+  font-size: 20px;
+}
+
+section.footer{
+  width: 320px;
+  padding: 10px 2px 10px 2px;
+}
+
+section.header img.title {
+  width: 320px;
+  height: auto;
+  padding-top: 160px;
+}
+
+section.header div.train {
+   background-size: 300px auto;
+}
+
+section.header div.montain {
+   bottom: 80px;
+}
+
+section.header img.sonhar {
+  top: 0;
+  left: 0;
+  bottom: initial;
+}
+
+section.details {
+  width: 310px;
+}
+
+section.details h1 {
+  font-weight: 700;
+  font-size: 27px;
+}
+
+section.details a {
+  font-size: 27px;
+}
+
+section.details h2 {
+  font-size: 22px;
+}
